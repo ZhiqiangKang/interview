@@ -1,0 +1,6 @@
+.idea/
+target/
+spark-warehouse/
+
+interview.iml
+dependency-reduced-pom.xml
