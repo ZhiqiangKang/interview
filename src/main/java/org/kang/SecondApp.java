@@ -101,6 +101,7 @@ public class SecondApp implements Serializable {
 
     /**
      * 创建SparkSession对象
+     *
      * @return SparkSession对象
      */
     private SparkSession createSparkSession(){
@@ -117,8 +118,9 @@ public class SecondApp implements Serializable {
 
     /**
      * 格式化字符串字段
-     * @param str
-     * @return
+     *
+     * @param str 待格式化的字符串
+     * @return 格式化的字符串
      */
     private String formatString(String str){
         if (str == null) return null;
@@ -141,8 +143,9 @@ public class SecondApp implements Serializable {
 
     /**
      * 格式化日期字段
-     * @param dateStr
-     * @return
+     *
+     * @param dateStr 待格式化的字符串
+     * @return 格式化的字符串
      */
     private String formatDate(String dateStr){
         if (dateStr == null) return null;
